@@ -50,7 +50,7 @@ int main(void) {
         return 1;
     }
 
-    history_file = fopen("/tmp/testing", "w");
+    history_file = fopen("/tmp/paperclip", "w");
 
     struct wl_registry *reg = wl_display_get_registry(display);
     wl_registry_add_listener(reg, &reg_listener, NULL);
