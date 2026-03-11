@@ -123,6 +123,6 @@ into the process:
 7. offer_destroy(offer)
       Send the "destroy" request and free the proxy object.
 ```
-7. [x] 
+7.  
 The pipe approach is standard for Wayland data transfers. It avoids shared
 memory and lets the compositor write asynchronously while the client reads.
